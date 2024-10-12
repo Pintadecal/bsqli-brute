@@ -19,8 +19,8 @@ python3 bsqli-brute.py <URL> <DELAY> [options]
 
 ## Arguments
 
-<<URL>>: The target URL vulnerable to SQL injection.
-<DELAY>: Delay time (in seconds) for the time-based SQL injection.
+URL: The target URL vulnerable to SQL injection.
+DELAY: Delay time (in seconds) for the time-based SQL injection.
 --db: Extract the database name.
 -D, --database: Specify the target database.
 --table: Extract the list of tables.
@@ -32,10 +32,17 @@ python3 bsqli-brute.py <URL> <DELAY> [options]
 
 ## Example
 
+Extract database name:
+```bash
+python3 bsqli-brute.py https://example.com/vuln.php?cat= 2 --db
+```
+
 Extract table names from a specific database:
 ```bash
 python3 bsqli-brute.py https://example.com/vuln.php?cat= 2 -D target_db --table
 ```
+
+Or Watch : https://youtu.be/zRo3oAMnfmQ?si=2zR7oaScXX702UUG
 
 Dump data from specific columns:
 ```bash
