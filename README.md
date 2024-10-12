@@ -1,4 +1,4 @@
-# bsqli-brute
+# bsqli-brute (beta)
 bsqli-brute is a Python-based tool designed for automating time-based blind SQL Injection (SQLi) attacks. This tool is designed to help penetration testers and security researchers extract sensitive information such as database names, table names, and column data from vulnerable web applications using time-delay techniques. With this tool, you can target URLs vulnerable to SQL injection and retrieve data by leveraging time-based blind SQL injection methods.
 
 ## Features
