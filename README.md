@@ -19,7 +19,7 @@ python3 bsqli-brute.py <URL> <DELAY> [options]
 
 ## Arguments
 
-<URL>: The target URL vulnerable to SQL injection.
+<<URL>>: The target URL vulnerable to SQL injection.
 <DELAY>: Delay time (in seconds) for the time-based SQL injection.
 --db: Extract the database name.
 -D, --database: Specify the target database.
