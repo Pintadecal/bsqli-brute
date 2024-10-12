@@ -17,7 +17,7 @@ Custom Delay: Control the delay time to fine-tune the SQLi process.
 ```bash
 python3 bsqli-brute.py <URL> <DELAY> [options]
 ```
-Shorter delay and slow connection cause inaccurate results
+Shorter delay and slow connection causing inaccurate results (5-10 Seconds delay for stable)
 ## Arguments
 
 URL: The target URL vulnerable to SQL injection.
